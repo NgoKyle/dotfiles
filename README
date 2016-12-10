@@ -11,3 +11,12 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+
+
+Shortcuts Key:
+  Space  enable folding class/method
+  Ctrl-j move to the split below
+  Ctrl-k move to the split above
+  Ctrl-l move to the split to the right
+  Ctrl-h move to the split to the left
