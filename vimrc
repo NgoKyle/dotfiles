@@ -1,12 +1,14 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+
+"*********Split Layouts*************"
 "split navigations
-"Ctrl + J/K/L/M to navigate splited screens
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+"***************************"
 
 
 "*******Code Folding********"
@@ -18,8 +20,19 @@ nnoremap <space> za
 "***************************"
 
 
-set tabstop=2
-set shiftwidth=2
-set expandtab
+
+
+
+"*******Python Indentation********"
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+"*********************************"
+
 syntax on
 
