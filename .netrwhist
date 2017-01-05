@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/boss/Desktop/OfficeG/proxy'
+let g:netrw_dirhist_2='/Users/boss/Desktop/OfficeG-broken/proxy'
+let g:netrw_dirhist_3='/Users/boss/Python/SupremeG/OfficeG/proxy'
+let g:netrw_dirhist_4='/Users/boss/Python/ExxonG'

@@ -12,6 +12,14 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule init
     git submodule update
 
+Contain Plugins:
+    Fugitive
+    Nerdtree
+    SimpylFold
+    Syntastic
+	indentPython
+    ctrlp
+    vim-airline
 
 
 Shortcuts Key:
@@ -20,3 +28,5 @@ Shortcuts Key:
   Ctrl-k move to the split above
   Ctrl-l move to the split to the right
   Ctrl-h move to the split to the left
+  Ctrl-n opens nerdtree
+
