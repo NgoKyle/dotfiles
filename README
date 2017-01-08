@@ -30,3 +30,15 @@ Shortcuts Key:
   Ctrl-h move to the split to the left
   Ctrl-n opens nerdtree
 
+
+
+YouCompleteMe Installation for Mac:
+
+1. install macvim
+    homebrew install macvim
+2. point vim to your macvim using ~/.bash_profile
+    alias vim="/usr/local/Cellar/macvim/8.0-120/MacVim.app/Contents/MacOS/Vim"
+    alias vi="vim"
+3. Then follow the instructions on:
+    https://github.com/Valloric/YouCompleteMe
+
